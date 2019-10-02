@@ -1,7 +1,7 @@
 # Generating Emails with React
+This is an example project you can use to generate emails with React. You can start by reading the article [here](https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1).
 
-> This is an example project you can use to generate emails with React.
-> You can start by reading the article [here][article].
+>  If you want to generate PDFs using react, check the [react-pdfs](https://github.com/lang-ai/react-pdfs) repo.
 
 
 ### Example
@@ -12,6 +12,7 @@ forecast by using the [MetaWeather API][metaweather].
 To generate the example email:
 
 ```
+$ npm install
 $ npm run build
 $ node example/weather.js
 ```
@@ -49,13 +50,12 @@ createEmail(data)
 
 - - - - - - - - - -
 
-[![Séntisis](https://s3-eu-west-1.amazonaws.com/sentisis-images/github_public/react-emails/sentisis-logo.png)][sentisis]
+[![LangAI](https://s3-eu-west-1.amazonaws.com/langai-public/github/logo-small.png)][langai]
 
-**Built with ❤️  by Séntisis**
-
+**Built with ❤️ by Lang.ai**
 
  [article]: https://building.sentisis.com/
- [sentisis]: https://building.sentisis.com/
+ [langai]: https://building.lang.ai/
  [react-create-app]: https://github.com/facebookincubator/create-react-app
  [react-create-app-guide]: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
  [metaweather]: https://www.metaweather.com/api/
